@@ -1,0 +1,13 @@
+{
+  "name": "nyc-caching-fubar-reports",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "nyc": "^11.1.0"
+  },
+  "scripts": {
+    "test": "nyc ava test.js && nyc report --reporter=lcov"
+  }
+}
